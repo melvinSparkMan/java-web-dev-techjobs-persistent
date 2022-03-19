@@ -11,9 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import static org.launchcode.javawebdevtechjobspersistent.controllers.ListController.columnChoices;
 
-/**
- * Created by LaunchCode
- */
+import static org.launchcode.javawebdevtechjobspersistent.controllers.ListController.columnChoices;
+
 @Controller
 @RequestMapping("search")
 public class SearchController {
